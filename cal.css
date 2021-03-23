@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url("abstract.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1
+{
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-weight: bold;
+}
+.calculator
+{
+    height: 480px;
+    width: 405px;
+    background-color:#eaedef;
+    margin: 0 auto;
+    top: 150px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.top
+{
+   margin: 10px auto;
+   padding-top: 20px;
+}
+.main-bar
+{
+height: 10vh;
+text-align: right;
+
+}
+#inp
+{
+    font-size: 26px;
+    font-weight: bold
+}
+
+.btn
+{
+    width: 63px;
+    margin-left: 12px;
+    margin-top: 15px;
+    
+}
+.line
+{
+    margin-bottom: 20px;
+}
+.btn:active,.button:active
+{
+    font-size: 13px;
+}
+
